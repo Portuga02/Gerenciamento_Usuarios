@@ -14,7 +14,6 @@ var admin = document.querySelectorAll("#exampleInputAdmin");
 var fields = document.querySelectorAll("#form-user-create [name]");
 
 fields.forEach(function (field, index) {
-    
-    console.log(field);
-    console.log( index);
+  console.log(field);
+  console.log(index);
 });
